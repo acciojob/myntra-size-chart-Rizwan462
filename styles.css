@@ -1,2 +1,46 @@
 
 /* Your CSS Code here. */
+body{
+	font-family: arial, sans-serif;
+	background-color: #f4f4f4;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-item: center;
+	height: 90vh;
+}
+table{
+	border-collapse: collapse;
+	width: 100vh;
+	margin: auto;
+	background-color: #fff;
+	
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+th, td{
+	border: 1px solid  rgb(24,10,9);
+	padding: 2px;
+	align-item: center;
+}
+th{
+	background-color: #C0504D;
+	color: white;
+	text-align: left;
+}
+.head2>td{
+	background-color: #DA9694;
+	color: white;
+}
+.head3>td{
+	background-color: #F2DCDB;
+}
+.head4>td{
+	background-color: #D9D9D9;
+}
+td{
+	text-align: right;
+}
+.head0{
+	text-align: left;
+}
